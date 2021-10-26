@@ -1,0 +1,98 @@
+a{
+	color:#fff;
+}
+a:hover{
+	color:#c4b550;
+	text-decoration: none;
+}
+
+body {
+	background:#4c5844;
+	color:#d8ded3;
+	font-family:sans-serif
+}
+
+table {
+	width:100%%;
+	line-height:160%%;
+	font-size:12px
+}
+
+th {
+	border:1px solid;
+	border-color:#889180 #282e22 #282e22 #889180;
+	background:#4c5844;
+	color:#c4b550;
+	padding-left:5px;
+	font:normal;
+	text-align:left
+}
+
+tr {
+	background:#3e4637
+}
+
+.q {
+	border:1px solid;
+	border-color:#282e22 #889180 #889180 #282e22;
+	width: 100%;
+}
+
+.b {
+	background:#393e34
+}
+
+.dropdown p {
+	display: inline-block;
+	font-weight: bold;
+}
+
+.dropdown select {
+      border: 0 !important;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      background: url('arrow_down.png') no-repeat;
+      background-position: 0px 3px;
+      width: 260px;
+      text-indent: 0.01px;
+      text-overflow: "";
+	  padding-left:16px;
+      color: #c4b550;
+}
+*:focus {
+    outline: 0;
+}
+.search {
+	width: 260px; 
+	border:none; 
+	background:#3E4637; 
+	color:#C4B54D; 
+	padding-left: 5px;
+}
+
+.wrapPaging{
+	padding-top: 10px;
+	display: block;
+	  padding-left: auto;
+	  padding-right: auto;
+}
+
+.pagin {
+	padding-top: 12px;
+}
+
+ul.pages {
+	list-style:none;
+	display: inline;
+	padding-left:2px;
+}
+
+ul.pages li {
+	display: inline; /* Отображать как строчный элемент */
+    margin-right: 3px; /* Отступ слева */
+    padding: 3px; /* Поля вокруг текста */
+}
+
+ul.pages li.active {
+	font-weight: bold;
+}

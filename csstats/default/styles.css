@@ -1,0 +1,302 @@
+﻿body {
+	padding: 5px;
+	margin: 5px;
+	font-family: tahoma, arial, verdana, sans-serif, Lucida Sans;
+	background-color: #FFFFFF;
+	color: #000000;
+	font-size: 16px;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.20);
+}
+
+a {
+	text-decoration:none;
+}
+
+
+.table td {
+	padding: 8px;
+	line-height: 20px;
+	text-align: left;
+	vertical-align: center;
+	border-top: 1px solid #dddddd;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.0);
+}
+
+.table-condensed td {
+	padding: 4px 5px;
+}
+
+.table-bordered {
+	border: 1px solid #dddddd;
+	border-collapse: separate;
+	border-collapse: collapse;
+	border-left: 0;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+}
+
+.table-bordered td {
+	border-left: 1px solid #dddddd;
+}
+
+/* Заголовок таблицы */
+.TableSettings {
+	background-color: #49afcd;
+	background-repeat: repeat-x;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#5bc0de', endColorstr='#2f96b4', GradientType=0);
+	border-color: #2f96b4 #2f96b4 #1f6377;
+	border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+	filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+	color:#FFFFFF;
+	
+}
+
+/* Цвета ячеек */
+.label {
+	display: inline-block;
+	padding: 2px 4px;
+	font-size: 11.844px;
+	font-weight: bold;
+	line-height: 14px;
+	color: #ffffff;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+	white-space: nowrap;
+	vertical-align: baseline;
+	background-color: #999999;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+
+/* Main */
+.label-on {
+	background-color: #468847;
+}
+.label-off {
+	background-color: #b94a48;
+}
+#sort {
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+	color:#FFFFFF;
+}
+
+/* Top */
+.label-place {
+	background-color: #333333;
+}
+#nick {
+	color:#FF9900;
+	font-weight : bold;
+}
+.label-frags {
+	background-color: #468847;
+}
+.label-death {
+	background-color: #b94a48;
+}
+.label-headshots {
+	background-color: #468847;
+}
+.label-teamkills {
+	background-color: #999999;
+}
+.label-shots {
+	background-color: #999999;
+}
+.label-hits {
+	background-color: #999999;
+}
+.label-damage {
+	background-color: #999999;
+}
+.label-suicide {
+	background-color: #999999;
+}
+.label-defusing {
+	background-color: #999999;
+}
+.label-defused {
+	background-color: #468847;
+}
+.label-planted {
+	background-color: #999999;
+}
+.label-explode {
+	background-color: #468847;
+}
+.label-zvanie {
+	background-color: #3a87ad;
+}
+.label-xp {
+	background-color: #3a87ad;
+}
+
+/* Others */
+.label-gametime {
+	background-color: #999999;
+}
+.label-connects {
+	background-color: #999999;
+}
+.label-rounds {
+	background-color: #999999;
+}
+.label-wint {
+	background-color: #b94a48;
+}
+.label-winct {
+	background-color: #3a87ad;
+}
+
+.label-pfrags {
+	background-color: #999999;
+}
+.label-pheads {
+	background-color: #999999;
+}
+.label-pteams {
+	background-color: #999999;
+}
+.label-pacc {
+	background-color: #999999;
+}
+
+/* Line */
+.table-hover tbody tr:hover td {
+	background-color: #dff0d8;
+}
+
+/* ToolTip */
+#tooltip {
+	background: #FFFFFF;
+	border: 1px solid #46688e;
+	color: #215D98;
+	font: 11px verdana;
+	margin: 1px;
+	padding: 1px;
+	position: absolute;
+	visibility: hidden;
+}
+
+/* pogon */
+img.expando {
+	border: none;
+	vertical-align: bottom;
+}
+
+/* Popup */
+.popup {
+	display: none; 
+	position: fixed; 
+	top: 60px; 
+	left: 50%; 
+	background: #FFFFFF; 
+	box-shadow: 4px 4px 30px #FFFFFF; 
+	z-index:2;
+}
+.popup div { 
+	width:100%; 
+	color: #FF9900;
+	margin: 5px;
+}
+.p_anch a {
+	color: #66CC66; 
+}
+.p_anch a:hover { 
+	text-decoration: none; 
+}
+.p_anch_bottom { 
+	margin:1500px 0 50px 0; 
+}
+.p_close { float:right; width:15px; height:14px; margin:11px 10px 0 0; background:url(img/close.png); }
+.p_body { display:none; background: #FFFFFF; left:0; top:0; position:fixed; width:100%; height:100%; opacity:0.5; }
+
+
+/* Google Input */
+#search {
+	margin:0px;
+	position: absolute; 
+	right: 250px;
+	top: 50px;
+}
+
+#field {
+	float:left;
+	width:120px;
+	height:27px;
+	line-height:27px;
+	text-indent:10px;
+	font-family:arial, sans-serif;
+	font-size:1em;
+	color:#333;
+	background: #fff;
+	border:solid 1px #d9d9d9;
+	border-top:solid 1px #c0c0c0;
+	border-right:none;
+	outline: none;
+}
+
+#delete {
+	float:left;
+	width:16px;
+	height:29px;
+	line-height:27px;
+	margin-right:15px;
+	padding:0 10px 0 10px;
+	font-family: "Lucida Sans", "Lucida Sans Unicode",sans-serif;
+	font-size:22px;
+	background: #fff;
+	border:solid 1px #d9d9d9;
+	border-top:solid 1px #c0c0c0;
+	border-left:none;
+}
+
+#delete #x {
+	color:#A1B9ED;
+	cursor:pointer;
+	display:none;
+}
+
+#delete #x:hover {
+	color:#36c;
+}
+
+#submit {
+	cursor:pointer;
+	width:70px;
+	height: 31px;
+	line-height:0;
+	font-size:0;
+	text-indent:-999px;
+	color: transparent;
+	background: url("img/search.png") no-repeat #4d90fe center;
+	border: 1px solid #3079ED;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+}
+
+#submit:hover {
+	background: url("img/search.png") no-repeat center #357AE8;
+	border: 1px solid #2F5BB7;
+}
+
+
+.alert {
+  padding: 8px 35px 8px 14px;
+  margin-bottom: 20px;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+  background-color: #fcf8e3;
+  border: 1px solid #fbeed5;
+  -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+          border-radius: 4px;
+}
+
+.alert-success {
+  color: #468847;
+  background-color: #dff0d8;
+  border-color: #d6e9c6;
+  font-size: 14px;
+}
